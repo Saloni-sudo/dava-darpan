@@ -5,6 +5,7 @@
 Dava Darpan helps anyone compare a branded medicine with its **Jan Aushadhi (generic) equivalent**, see exactly how much they'd save, build a running savings basket, and find their nearest government pharmacy — all built on real official data.
 
 🔗 **Live app:** [dava-darpan.vercel.app](https://dava-darpan.vercel.app)
+
 🔗 **API:** [dava-darpan-api.onrender.com](https://dava-darpan-api.onrender.com/api/health)
 
 *(The backend is on a free tier and sleeps after inactivity — the first request after a while can take ~30 seconds to wake up.)*
@@ -120,6 +121,3 @@ npm run dev      # client on :5173, server on :5001
 
 This uses **real official government data** (the Jan Aushadhi product list and the kendra directory) alongside a **hand-curated** set of common branded medicines and their publicly-known compositions and typical prices. The branded data is curated by hand, not scraped from any pharmacy and not pulled from a live pricing feed — every savings figure is shown with the underlying pack price so it can be checked, and compositions with no listed generic equivalent are stated honestly rather than hidden or faked.
 
----
-
-**Built by Shashwat · 2026**
