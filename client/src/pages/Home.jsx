@@ -156,8 +156,8 @@ export default function Home() {
 
       <footer className="border-t">
         <div className="mx-auto max-w-5xl px-6 py-6 text-center text-sm text-muted-foreground">
-          Dava Darpan · Helping Indians find affordable generic medicines · Built by Shashwat ·{" "}
-          {new Date().getFullYear()}
+  Dava Darpan · Helping Indians find affordable generic medicines · {new Date().getFullYear()}
+</div>
         </div>
       </footer>
     </div>
